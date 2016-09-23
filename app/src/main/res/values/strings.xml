@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="ok">OK</string>
+    <string name="no_internet">Check Internet Service</string>
+    <string name="google">Login With G+</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Profile">Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure that you want to logout?</string>
+    <string name="google_place_api">AIzaSyAcHB3FL_6eSE2_NSLZeNV1-T6LQJO2pbU</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="cancel">Cancel</string>
+    <string name="otp">SEND OTP</string>
+    <string name="KeepNote">My Notes</string>
+    <string name="MyHistory">My History</string>
+    <string name="DonateBlood">Donate Blood</string>
+    <string name="name">Name</string>
+    <string name="requestDonor">Request Donor</string>
+</resources>

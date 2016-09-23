@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome To HealthCare"
+        android:layout_margin="10dip"
+        android:textSize="26sp"
+android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView2" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip">
+
+
+        <!-- Login Button -->
+
+        <!-- Link to Login Screen -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtverify"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:textColorHint="#ffffff"
+            android:hint="Enter Code" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|phone"
+            android:ems="10"
+            android:id="@+id/mobile"
+            android:layout_gravity="center_horizontal"
+            android:autoText="true"
+            android:hint="Contact Number"
+            android:phoneNumber="true"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:padding="1dp"
+            android:text="@string/google"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="@string/otp"
+            android:padding="1dp"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            android:id="@+id/otp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

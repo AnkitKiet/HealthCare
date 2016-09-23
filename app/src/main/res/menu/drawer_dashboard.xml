@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/feeditems">
+
+        <item
+            android:id="@+id/dashboard"
+            android:checked="false"
+            android:icon="@drawable/ic_dashboard_black"
+            android:title="@string/dashboard" />
+
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile"
+            android:title="@string/Profile" />
+
+        <item
+            android:id="@+id/NoteKeep"
+            android:icon="@drawable/note"
+            android:title="@string/KeepNote" />
+
+
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/history"
+            android:title="@string/MyHistory" />
+
+    </group>
+
+    <group        android:checkableBehavior="single"
+        android:id="@+id/app">
+
+
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_call_black"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/rate_us" />
+
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/privacy"
+            android:title="@string/privacy" />
+
+
+    </group>
+
+    <group         android:checkableBehavior="single"
+        android:id="@+id/log">
+
+    <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout_black"
+            android:title="@string/logout" />
+
+    </group>
+
+
+</menu>

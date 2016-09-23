@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "304572557480",
+    "firebase_url": "https://otassistant-2e377.firebaseio.com",
+    "project_id": "otassistant-2e377",
+    "storage_bucket": "otassistant-2e377.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304572557480:android:693a137b04fb8566",
+        "android_client_info": {
+          "package_name": "com.otassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304572557480-7457u6g3ekpur8nntnfoeohp19ig1l5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otassistant",
+            "certificate_hash": "D0FDB2945B50A5BAB7D4AAB9772E4AE03F374BB5"
+          }
+        },
+        {
+          "client_id": "304572557480-o8a7v9u2ricuqq1th9iopthm3cmjrc17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsknGRafwZhRES5nT1jDCw8ABvakevdKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304572557480-o8a7v9u2ricuqq1th9iopthm3cmjrc17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
